@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "capstone-c2-THIERRYNSUKA",
+			"path": "."
+		},
+		{
+			"name": "node_modules",
+			"path": "../../exercice/vite-project/node_modules"
+		}
+	],
+	"settings": {}
+}
