@@ -2,18 +2,24 @@ import { BrowserRouter as Router , Routes, Route, Link, NavLink, Outlet, usePara
 import './App.css';
 import Header from "./header/header";
 import Footer from "./footer/footer";
-
+import Accueil from "./pages/accueil";
+import APropos from "./pages/apropos";
+import Services from "./pages/service";
+import Contact from "./pages/contact";
 
 function App() {
 
   return (
-    <>
+    <div className="text-xl">
     <Router >
       <Header/>
         
       <main >
         <Routes>
-          {/* <Route path="/" element={<Accueil/>}/> */}
+          <Route path="/" element={<Accueil/>}/>
+          <Route path="/apropos" element={<APropos/>}/>
+          <Route path="/services" element={<Services/>}/>
+          <Route path="/contact" element={<Contact/>}/>
           
         </Routes>
       </main>
@@ -23,7 +29,7 @@ function App() {
       </div>
       
       </Router>
-    </>
+    </div>
   )
 }
 
