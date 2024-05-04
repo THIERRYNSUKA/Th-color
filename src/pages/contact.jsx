@@ -11,10 +11,10 @@ const Contact = () => {
         </div>
       </header>
 
-      <section className="bg-cover bg-center py-20" style={{ backgroundImage: "url('src/assets/images/peintures (34).jpg')" }}>
+      <section className="bg-cover bg-center py-20" style={{ backgroundImage: "url('src/assets/images/acre.jpg')" }}>
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-8 text-orange-600">À propos de nous</h2>
-        <p className="text-3xl font-bold mb-8 text-orange-600">
+        <h2 className="text-3xl font-bold mb-8 text-neutral-950">À propos de nous</h2>
+        <p className="text-3xl font-bold mb-8 text-neutral-950">
           Notre boutique offre une gamme complète de peintures de qualité supérieure pour tous vos besoins créatifs.
         </p>
         <a href="#" className="bg-blue-500 text-white py-2 px-4 rounded-full font-semibold hover:bg-blue-600 transition duration-300">En savoir plus</a>
@@ -68,13 +68,13 @@ const Contact = () => {
           <div className="bg-white shadow-md rounded p-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Informations de Contact</h2>
             <p className="text-lg text-gray-700 mb-4">
-              Téléphone: (123) 456-7890
+              Téléphone: (243) 8992-9611
             </p>
             <p className="text-lg text-gray-700 mb-4">
-              Email: contact@example.com
+              Email: thcolor@gmail.com
             </p>
             <p className="text-lg text-gray-700 mb-4">
-              Adresse: 123 Rue de l'Art, Ville, Pays
+              Adresse: 22 Rue de la Maternite, Kinshasa, Rd Congo
             </p>
           </div>
         </div>

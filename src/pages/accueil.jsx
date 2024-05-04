@@ -30,7 +30,7 @@ function Accueil() {
               <p className="">Idéale pour les tableaux artistiques, diverses teintes disponibles.</p>
             </div>
             <div className="bg-gray-800 rounded-lg shadow-lg p-6">
-              <img src="src/assets/images/peintures (36).jpg" alt="Product" className="mb-4" />
+              <img src="src/assets/images/spray r.jpg" alt="Product" className="mb-4" />
               <h3 className="text-lg font-semibold mb-2">Peinture en spray</h3>
               <p>Pour les projets de décoration et retouches rapides.</p>
             </div>
@@ -45,18 +45,18 @@ function Accueil() {
           <div className="grid grid-cols-3 gap-8">
             {/* Product Cards */}
             <div className="bg-gray-800 rounded-lg shadow-lg p-6">
-              <img src={peintures} alt="Product" className="mb-4" />
-              <h3 className="text-lg font-semibold mb-2">Peinture acrylique</h3>
+              <img src="src/assets/images/latex latex.jpg" alt="Product" className="mb-4" />
+              <h3 className="text-lg font-semibold mb-2">Peinture Latex</h3>
               <p >Pour tous types de surfaces, haute qualité.</p>
             </div>
             <div className="bg-gray-800 rounded-lg shadow-lg p-6">
-              <img src="src/assets/images/peintures (2).avif" alt="Product" className="mb-4" />
+              <img src="src/assets/images/email a.jpg" alt="Product" className="mb-4" />
               <h3 className="text-lg font-semibold mb-2">Peinture à l'huile</h3>
               <p >Idéale pour les tableaux artistiques, diverses teintes disponibles.</p>
             </div>
             <div className="bg-gray-800 rounded-lg shadow-lg p-6">
-              <img src="src/assets/images/peintures (8).jpg" alt="Product" className="mb-4" />
-              <h3 className="text-lg font-semibold mb-2">Peinture en spray</h3>
+              <img src="src/assets/images/sol.jpg" alt="Product" className="mb-4" />
+              <h3 className="text-lg font-semibold mb-2">Peinture Sol</h3>
               <p>Pour les projets de décoration et retouches rapides.</p>
             </div>
           </div>
@@ -70,18 +70,18 @@ function Accueil() {
           <div className="grid grid-cols-3 gap-8">
             {/* Product Cards */}
             <div className="bg-gray-800 rounded-lg shadow-lg p-6">
-              <img src={peintures} alt="Product" className="mb-4" />
-              <h3 className="text-lg font-semibold mb-2">Peinture acrylique</h3>
+              <img src="src/assets/images/bois.jpg" alt="Product" className="mb-4" />
+              <h3 className="text-lg font-semibold mb-2">Peinture Bois</h3>
               <p>Pour tous types de surfaces, haute qualité.</p>
             </div>
             <div className="bg-gray-800 rounded-lg shadow-lg p-6">
-              <img src="src/assets/images/peintures (2).avif" alt="Product" className="mb-4" />
-              <h3 className="text-lg font-semibold mb-2">Peinture à l'huile</h3>
+              <img src="src/assets/images/antirouille.jpeg" alt="Product" className="mb-4" />
+              <h3 className="text-lg font-semibold mb-2">Peinture Antirouille</h3>
               <p >Idéale pour les tableaux artistiques, diverses teintes disponibles.</p>
             </div>
             <div className="bg-gray-800 rounded-lg shadow-lg p-6">
-              <img src="src/assets/images/peintures (8).jpg" alt="Product" className="mb-4" />
-              <h3 className="text-lg font-semibold mb-2">Peinture en spray</h3>
+              <img src="src/assets/images/piscine.jpg" alt="Product" className="mb-4" />
+              <h3 className="text-lg font-semibold mb-2">Peinture Piscine</h3>
               <p>Pour les projets de décoration et retouches rapides.</p>
             </div>
           </div>

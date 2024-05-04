@@ -11,13 +11,13 @@ const Footer = () => {
               <i className="fab fa-facebook-f">Facebook</i>
             </a>
             <a href="#" className="mr-4">
-              <i className="fab fa-twitter">twitter</i>
+              <i className="fab fa-twitter">Twitter</i>
             </a>
             <a href="#" className="mr-4">
-              <i className="fab fa-instagram">instagram</i>
+              <i className="fab fa-instagram">Instagram</i>
             </a>
             <a href="#" className="mr-4">
-              <i className="fab fa-pinterest">pinterest</i>
+              <i className="fab fa-pinterest">Pinterest</i>
             </a>
           </div>
         </div>
@@ -31,9 +31,9 @@ const Footer = () => {
         </div>
         <div className="w-full md:w-1/3 text-center md:text-right">
           <h3 className="text-xl font-bold">Contactez-nous</h3>
-          <p className="mt-4">123 Rue de la Peinture,<br />75001 Paris, France</p>
-          <p className="mt-2">contact@exemple.com</p>
-          <p className="mt-2">+33 1 23 45 67 89</p>
+          <p className="mt-4">22 Rue de la Maternite,<br />243 Kinshasa, RD Congo</p>
+          <p className="mt-2">thcolor@gmail.com</p>
+          <p className="mt-2">+243899296111</p>
         </div>
       </div>
       <div className="mt-8 border-t border-gray-800 pt-8 text-center">

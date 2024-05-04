@@ -14,6 +14,7 @@ function NavBar() {
                 <NavLink to="/services">Services</NavLink>
                 
                <NavLink to="/contact">Contact</NavLink>
+               <NavLink to="/catalogue">Catalogue</NavLink>
     
             </nav>
           
