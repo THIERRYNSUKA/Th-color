@@ -1,5 +1,6 @@
 import React from 'react';
 import peintures from "../assets/images/peintures (1).avif"
+import sprayr from "../assets/images/spray r.jpg"
 
 function Accueil() {
   return (
@@ -30,7 +31,7 @@ function Accueil() {
               <p className="">Idéale pour les tableaux artistiques, diverses teintes disponibles.</p>
             </div>
             <div className="bg-gray-800 rounded-lg shadow-lg p-6">
-              <img src="src/assets/images/spray r.jpg" alt="Product" className="mb-4" />
+              <img src={sprayr} alt="Product" className="mb-4" />
               <h3 className="text-lg font-semibold mb-2">Peinture en spray</h3>
               <p>Pour les projets de décoration et retouches rapides.</p>
             </div>
