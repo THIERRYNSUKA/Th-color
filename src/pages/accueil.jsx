@@ -1,6 +1,6 @@
 import React from 'react';
 import peintures from "../assets/images/peintures (1).avif"
-import sprayr from "../assets/images/spray r.jpg"
+import sprayr from "../assets/images/sprayr.jpg"
 
 function Accueil() {
   return (
