@@ -1,7 +1,6 @@
 import React from 'react';
-import peintures from "../assets/images/peintures (1).avif"
-import sprayr from "../assets/images/sprayr.jpg"
-import piscine from "../assets/images/piscine.jpg"
+import kopo from "../assets/images/kopo.avif"
+import { listeAcueil } from '../data/listeAccueil';
 
 function Accueil() {
   return (
@@ -15,24 +14,24 @@ function Accueil() {
         </div>
       </section>
 
-      {/* Featured Products Section */}
-      <section className="py-20">
+      
+      {/* <section className="py-20">
         <div className="container mx-auto text-center text-lg">
           <h2 className="text-3xl font-bold mb-8 text-orange-600">Nos produits phares</h2>
           <div className="grid grid-cols-3 gap-8">
-            {/* Product Cards */}
+            
             <div className="bg-gray-800	rounded-lg shadow-lg p-6">
-              <img src={peintures} alt="Product" className="mb-4" />
+              <img src={kopo} alt="Product" className="mb-4" />
               <h3 className="text-lg font-semibold mb-2">Peinture acrylique</h3>
               <p>Pour tous types de surfaces, haute qualité.</p>
             </div>
             <div className="bg-gray-800 rounded-lg shadow-lg p-6">
-              <img src={piscine} alt="Product" className="mb-4" />
+              <img src="" alt="Product" className="mb-4" />
               <h3 className="text-lg font-semibold mb-2">Peinture à l'huile</h3>
               <p className="">Idéale pour les tableaux artistiques, diverses teintes disponibles.</p>
             </div>
             <div className="bg-gray-800 rounded-lg shadow-lg p-6">
-              <img src={sprayr} alt="Product" className="mb-4" />
+              <img src="src/assets/images/sprayr.jpg" alt="Product" className="mb-4" />
               <h3 className="text-lg font-semibold mb-2">Peinture en spray</h3>
               <p>Pour les projets de décoration et retouches rapides.</p>
             </div>
@@ -40,19 +39,19 @@ function Accueil() {
         </div>
       </section>
 
-      {/* section 2 */}
+      
       <section className="py-4">
         <div className="container mx-auto text-center">
           
           <div className="grid grid-cols-3 gap-8">
-            {/* Product Cards */}
+            
             <div className="bg-gray-800 rounded-lg shadow-lg p-6">
-              <img src="src/assets/images/latex latex.jpg" alt="Product" className="mb-4" />
+              <img src="src/assets/images/latex.jpg" alt="Product" className="mb-4" />
               <h3 className="text-lg font-semibold mb-2">Peinture Latex</h3>
               <p >Pour tous types de surfaces, haute qualité.</p>
             </div>
             <div className="bg-gray-800 rounded-lg shadow-lg p-6">
-              <img src="src/assets/images/email a.jpg" alt="Product" className="mb-4" />
+              <img src="src/assets/images/emaila.jpg" alt="Product" className="mb-4" />
               <h3 className="text-lg font-semibold mb-2">Peinture à l'huile</h3>
               <p >Idéale pour les tableaux artistiques, diverses teintes disponibles.</p>
             </div>
@@ -64,13 +63,13 @@ function Accueil() {
           </div>
         </div>
       </section>
-      {/* section 3 */}
+      
 
       <section className="py-4">
         <div className="container mx-auto text-center">
          
           <div className="grid grid-cols-3 gap-8">
-            {/* Product Cards */}
+            
             <div className="bg-gray-800 rounded-lg shadow-lg p-6">
               <img src="src/assets/images/bois.jpg" alt="Product" className="mb-4" />
               <h3 className="text-lg font-semibold mb-2">Peinture Bois</h3>
@@ -88,7 +87,25 @@ function Accueil() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+<div className="py-4">
+    <div className="container mx-auto text-center ">
+    
+    <div className="grid grid-cols-3 gap-8">
+      {listeAcueil.map((peint) => (
+        <div key={peint.id} className="bg-gray-800 rounded-lg shadow-lg p-6">
+          <img src={peint.cover} alt={peint.name} className="lmj-plant-item-cover cover mb-2 " />
+          <div className="">
+          {/* <p className="font-semibold">{peint.name}</p> */}
+          <h3 className="text-lg font-semibold mb-2">{peint.category}</h3>
+          <p>{peint.text}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+    </div>
+  </div>
 
       {/* About Us Section */}
       
