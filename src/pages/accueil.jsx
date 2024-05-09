@@ -1,6 +1,7 @@
 import React from 'react';
 import peintures from "../assets/images/peintures (1).avif"
 import sprayr from "../assets/images/sprayr.jpg"
+import piscine from "../assets/images/piscine.jpg"
 
 function Accueil() {
   return (
@@ -26,7 +27,7 @@ function Accueil() {
               <p>Pour tous types de surfaces, haute qualité.</p>
             </div>
             <div className="bg-gray-800 rounded-lg shadow-lg p-6">
-              <img src="src/assets/images/peintures (2).avif" alt="Product" className="mb-4" />
+              <img src={piscine} alt="Product" className="mb-4" />
               <h3 className="text-lg font-semibold mb-2">Peinture à l'huile</h3>
               <p className="">Idéale pour les tableaux artistiques, diverses teintes disponibles.</p>
             </div>
